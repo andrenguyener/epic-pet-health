@@ -1,14 +1,14 @@
 //put the interpreter into strict mode
 "use strict";
-
+var CONFIG = require('./../config.json');
 $(document).ready(function(){
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyALn1QdeORKq1g7jyDvkREPnqF2CKskO_I",
-    authDomain: "newsletter-d8f2a.firebaseapp.com",
-    databaseURL: "https://newsletter-d8f2a.firebaseio.com",
-    storageBucket: "newsletter-d8f2a.appspot.com",
-    messagingSenderId: "681396689198"
+    apiKey: CONFIG.apiKey,
+    authDomain: CONFIG.authDomain,
+    databaseURL: CONFIG.databaseURL,
+    storageBucket: CONFIG.storageBucket,
+    messagingSenderId: CONFIG.messagingSenderId
   };
   firebase.initializeApp(config);
 
