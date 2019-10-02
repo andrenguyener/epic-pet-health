@@ -59,6 +59,18 @@ var PRODUCTS = [{
     "horse": false,
     "description": "Decreases hairballs."
 }, {
+    "name": "Cat GERD (Gastro Esophageal Reflux Disorder)",
+    "img": "img/products/cat-digest.jpg",
+    "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/digest",
+    "bestseller": true,
+    "agility": false,
+    "behavioral": false,
+    "prevention": false,
+    "allergy": false,
+    "cat": true,
+    "horse": false,
+    "description": "Decreases hairballs."
+}, {
     "name": "Clarity",
     "img": "img/products/clarity.jpg",
     "link": "https://epic-pet-health.myshopify.com/collections/frontpage/products/clarity",
